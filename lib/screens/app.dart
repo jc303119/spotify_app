@@ -30,7 +30,7 @@ class _MyappState extends State<Myapp> {
     Size deviceSize = MediaQuery.of(context).size;
     return AnimatedContainer(
       duration: const Duration(milliseconds: 500),
-      color: Colors.blueGrey,
+      color: Colors.redAccent,
       width: deviceSize.width,
       height: 50,
       child: Row(
